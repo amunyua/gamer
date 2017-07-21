@@ -15,9 +15,10 @@
 
 
 </head>
-<body>
+<body style="background: #18203b url({{ URL::asset('img/header-bg-3.jpg') }}) no-repeat center;
+        background-size: cover;">
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-default">
             <div class="container">
                 <div class="navbar-header">
 

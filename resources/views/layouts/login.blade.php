@@ -17,8 +17,16 @@
 
 </head>
 
-<body class="gray-bg">
-<nav class="navbar navbar-default navbar-static-top">
+<body class="gray-bg" style="background: #18203b url({{ URL::asset('img/header-bg-3.jpg') }}) no-repeat center;
+        background-size: cover;">
+<div id="particles-js" style=" position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;"></div>
+<div class="container">
+<nav class="navbar navbar-default">
     <div class="container">
         <div class="navbar-header">
 
@@ -75,7 +83,7 @@
     </div>
 </nav>
     @yield('content')
-    <hr/>
+
     <div class="row">
         {{--<div class="col-md-6">--}}
             {{--Gammer--}}
@@ -85,7 +93,10 @@
         {{--</div>--}}
     </div>
 
+</div>
 
+<script src="{{ URL::asset('content/js/particles.min.js') }}"></script>
+<script src="{{ URL::asset('content/js/app2.js') }}"></script>
 </body>
 
 </html>

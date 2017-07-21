@@ -1,8 +1,8 @@
 @extends('layouts.login')
 
 @section('content')
-    <div class="row">
-        <div class="loginColumns animated fadeInDown">
+    <div class="row" >
+        <div class="loginColumns animated fadeInDown" >
 
         <div class="col-md-6">
             <h2 class="font-bold">Welcome to The game</h2>

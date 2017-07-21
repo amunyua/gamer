@@ -15,9 +15,15 @@
 
 </head>
 
-<body class="" style="background: #18203b {{ url(URL::asset('img/header-bg-4.jpg')) }} no-repeat center;
+<body class="" style="background: #18203b url({{ URL::asset('img/header-bg-3.jpg') }}) no-repeat center;
 background-size: cover;">
-<div id="particles-js">
+<div id="particles-js" style=" position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;"></div>
+<div class="container">
         <nav class="navbar navbar-info navbar">
             <div class="container">
                 <div class="navbar-header">

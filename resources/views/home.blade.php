@@ -2,6 +2,7 @@
 @extends('scaffold-interface.layouts.player')
 
 @section('content')
+
 <div class="wrapper wrapper-content animated fadeInRight col-md-8 col-md-offset-2" >
     <div class="row" >
         <div class="col-md-12">
